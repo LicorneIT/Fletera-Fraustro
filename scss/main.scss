@@ -1,0 +1,74 @@
+//* Globals
+@import 'globals/colors';
+@import 'globals/containers';
+
+
+//* Mixins
+@import 'mixins/flex';
+
+//* Layouts
+
+@import 'layout/header';
+@import 'layout/whatsapp';
+@import 'layout/menu';
+@import 'layout/footer';
+@import 'layout/chatWhatsapp';
+@import 'layout/thanks';
+
+//*Components home
+@import 'components/home/service';
+@import 'components/home/information';
+@import 'components/home/clients';
+@import 'components/home/we_ensure';
+@import 'components/home/price';
+@import 'components/home/experts';
+@import 'components/home/quote';
+@import 'components/home/why_we';
+@import 'components/home/urgent';
+@import 'components/home/imagen';
+@import 'components/home/aviso_de_privacidad';
+
+
+//*Components Units
+@import 'components/units/hero_units';
+@import 'components/units/catalog';
+
+//*Components services
+@import 'components/services/hero_services';
+@import 'components/services/we_services';
+@import 'components/services/contact';
+@import 'components/services/image_services';
+
+
+//*Components cobertura
+@import 'components/cobertura/hero_cobertura';
+@import 'components/cobertura/contact_cobertura';
+@import 'components/cobertura/location';
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial,Helvetica,sans-serif;
+	box-sizing: border-box;
+	
+
+}
+
+button{
+	border: 0;
+	outline: none;
+	background-color: transparent;
+	transition: 0.3s;
+}
+
+a{
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+svg{
+	width: 100%;
+	height: 100%;
+}
+
